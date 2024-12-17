@@ -1,51 +1,48 @@
 * {
     --header-background-image-offset: 0px
-}
-
-.main-container {
+  }
+  
+  .main-container {
     margin-left: 0;
     width: 100%;
-}
-
-.fandom-sticky-header {
+  }
+  
+  .fandom-sticky-header {
     left: 0;
-}
-
-.fandom-community-header__background {
+  }
+  
+  .fandom-community-header__background {
     width: 100%;
-}
-
-.wikia-bar,
-.global-footer,
-.mcf-en {
+  }
+  
+  .wikia-bar, .global-footer, .mcf-en {
     display: none;
-}
-
-.global-navigation {
+  }
+  
+  .global-navigation {
     display: none;
-}
-
-.global-top-navigation {
+  }
+  
+  .global-top-navigation{
     display: none;
-}
-
-.global-explore-navigation {
+  }
+  
+  .global-explore-navigation {
     display: none;
-}
-
-.resizable-container {
+  }
+  
+  .resizable-container {
     top: 0
-}
-
-.fandom-community-header__background {
+  }
+  
+  .fandom-community-header__background {
     transform: translateY(0);
-}
-
-html.new-nav-canary .fandom-community-header__top-container .wiki-tools__search,
-html.new-nav-canary .global-registration-buttons {
-    display: inherit;
-}
-
-.fandom-sticky-header:not(.community-navigation) {
+  }
+  
+  html.new-nav-canary .fandom-community-header__top-container .wiki-tools__search, html.new-nav-canary .global-registration-buttons {
+      display: inherit;
+  }
+  
+  .fandom-sticky-header:not(.community-navigation) {
     display: none !important;
-}
+  }
