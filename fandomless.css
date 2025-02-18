@@ -11,8 +11,9 @@
     left: 0;
   }
   
-  .fandom-community-header__background {
+  .fandom-community-header__background, .fandom-community-header__background.fullScreen {
     width: 100%;
+    transform: translateY(0);
   }
   
   .wikia-bar, .global-footer, .mcf-en {
@@ -34,10 +35,7 @@
   .resizable-container {
     top: 0
   }
-  
-  .fandom-community-header__background {
-    transform: translateY(0);
-  }
+
   
   html.new-nav-canary .fandom-community-header__top-container .wiki-tools__search, html.new-nav-canary .global-registration-buttons {
       display: inherit;
