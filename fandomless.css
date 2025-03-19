@@ -49,3 +49,11 @@
   .wiki-tools.wds-button-group :nth-child(2) {
     border-radius: 0;
   }
+
+.page__right-rail, .unified-search__layout__right-rail {
+  display: none;
+}
+
+.unified-search__layout__main {
+  width: calc(100% + 320px);
+}
